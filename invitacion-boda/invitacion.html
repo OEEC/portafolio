@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo Música con Howler.js</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+    <style>
+        #mute-button {
+            background: linear-gradient(135deg, #d4af37 0%, #e6c9a8 100%);
+            color: #fff;
+            border: none;
+            border-radius: 50px;
+            font-size: 2rem;
+            padding: 16px 32px;
+            cursor: pointer;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+            font-family: "Kings", cursive, sans-serif;
+            transition: background 0.2s;
+            margin: 80px auto 0;
+            display: block;
+        }
+        #mute-button:hover {
+            background: linear-gradient(135deg, #bfa233 0%, #d4af37 100%);
+        }
+    </style>
+</head>
+<body>
+    <button id="mute-button">🎵 Escuchar canción</button>
+
+    <script>
+    const sound = new Howl({
+        src: ['resources/sound/The_Rains_of_Castamere.mp3'],
+        loop: true,
+        volume: 0.5,
+        html5: true,
+        mute: false
+    });
+
+    let musicaIniciada = false;
+    const muteBtn = document.getElementById("mute-button");
+
+    muteBtn.addEventListener("click", () => {
+        if (!musicaIniciada) {
+            sound.play();
+            muteBtn.textContent = "🔇 Silenciar";
+            musicaIniciada = true;
+        } else {
+            const isMuted = sound.mute();
+            sound.mute(!isMuted);
+            muteBtn.textContent = !isMuted ? "🔇 Silenciar" : "🎵 Escuchar canción";
+        }
+    });
+    </script>
+</body>
+</html>
