@@ -4,21 +4,22 @@ class HeroSection extends HTMLElement {
     this.innerHTML = `
     <header class="hero" id="inicio">
       <div class="wrap">
-        <div>
-          <div class="tag" data-i="tag">Sistema en línea · Perfil cargado</div>
+        <div class="hero-content">
+          <div class="tag"><span class="ver">SYS.V2.6 //</span> <span data-i="tag">Sistema en línea · Perfil cargado</span></div>
           <h1>
             <span class="glitch" data-text="Oscar">Oscar</span>
             <span class="y">Escobar</span>
           </h1>
           <p class="role" data-i="role">Ingeniero en <b>Tecnologías de la Información</b>. Construyo sitios y soluciones web para negocios reales.</p>
           <p class="loc"><i>◢</i> <span data-i="loc">Torreón, Coahuila · México</span></p>
+          <div class="avail"><span class="dot"></span><span data-i="avail">Disponible para proyectos y colaboraciones</span></div>
           <div class="cta">
-            <a href="#proyectos" class="btn btn-y" data-i="cta1">Ver proyectos</a>
+            <span class="glow glow-y"><a href="#proyectos" class="btn btn-y" data-i="cta1">Ver proyectos</a></span>
             <a href="#contacto" class="btn btn-o" data-i="cta2">Contactar</a>
           </div>
         </div>
 
-        <aside class="idcard" aria-label="Ficha de identificación">
+        <aside class="idcard hero-card" aria-label="Ficha de identificación">
           <div class="idhead"><span>ID // NETRUNNER</span><em data-i="act">● ACTIVO</em></div>
           <div class="av-wrap"><img class="avatar" src="resources/img/oscar.jpg" alt="Foto de Oscar Escobar"></div>
           <div class="idrow"><span data-i="r1">NOMBRE</span><span>Oscar Escobar</span></div>

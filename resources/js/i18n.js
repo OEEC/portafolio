@@ -4,7 +4,7 @@ const T = {
     nav1:'Sobre mí', nav2:'Proyectos', nav3:'Intereses', nav4:'Contacto',
     tag:'Sistema en línea · Perfil cargado',
     role:'Ingeniero en <b>Tecnologías de la Información</b>. Construyo sitios y soluciones web para negocios reales.',
-    loc:'Torreón, Coahuila · México', cta1:'Ver proyectos', cta2:'Contactar',
+    loc:'Torreón, Coahuila · México', avail:'Disponible para proyectos y colaboraciones', cta1:'Ver proyectos', cta2:'Contactar',
     act:'● ACTIVO', r1:'NOMBRE', r2:'CLASE', r2v:'Ing. en TI', r3:'ORIGEN', r4:'FRECUENCIA', r5:'ALINEAMIENTO', r5v:'Determinación',
     bar:'FORTALEZA INTERIOR · NIVEL MÁXIMO',
     h1:'Quién soy', h2:'Lo que hago', h3:'Lo que me gusta', h4:'Conexión',
@@ -22,14 +22,14 @@ const T = {
     l4d:'Guitarras distorsionadas como banda sonora para programar y vivir.',
     c1:'¿Tienes un proyecto?<br><span>Hablemos.</span>',
     c2:'Abierto a nuevas colaboraciones, proyectos web y buenas conversaciones.',
-    mail:'CORREO', end:'fin de la transmisión_',
+    mail:'CORREO', end:'fin de la transmisión_', top:'↑ Volver arriba',
     copy:'COPIAR', copied:'COPIADO ✓', sel:'SELECCIONADO', title:'Oscar Escobar — Portafolio'
   },
   en: {
     nav1:'About', nav2:'Projects', nav3:'Interests', nav4:'Contact',
     tag:'System online · Profile loaded',
     role:'<b>Information Technology</b> Engineer. I build websites and web solutions for real businesses.',
-    loc:'Torreón, Coahuila · Mexico', cta1:'View projects', cta2:'Get in touch',
+    loc:'Torreón, Coahuila · Mexico', avail:'Available for projects & collaborations', cta1:'View projects', cta2:'Get in touch',
     act:'● ACTIVE', r1:'NAME', r2:'CLASS', r2v:'IT Engineer', r3:'ORIGIN', r4:'FREQUENCY', r5:'ALIGNMENT', r5v:'Determination',
     bar:'INNER STRENGTH · MAX LEVEL',
     h1:'Who I am', h2:'What I do', h3:'What I love', h4:'Connect',
@@ -40,14 +40,14 @@ const T = {
     q2:'Inner strength is worth more than any external power.',
     p1:'Website for a chain of gas stations and convenience stores operating at more than 150 locations.',
     pg:'Web project developed for the fuel industry.',
-    pb:'Web side for the invitation to my wedding.',
+    pb:'Website for my wedding invitation.',
     l1:'Video games', l1d:'Open worlds, intense stories and any excuse for one more match.',
     l2d:'Twenty-sided dice, long campaigns and characters with stories of their own.',
     l3:'Board games', l3d:'Strategy, cards and boards: the best part is a table full of friends.',
     l4d:'Distorted guitars as the soundtrack for coding and living.',
     c1:'Got a project?<br><span>Let\'s talk.</span>',
     c2:'Open to new collaborations, web projects and good conversations.',
-    mail:'EMAIL', end:'end of transmission_',
+    mail:'EMAIL', end:'end of transmission_', top:'↑ Back to top',
     copy:'COPY', copied:'COPIED ✓', sel:'SELECTED', title:'Oscar Escobar — Portfolio'
   }
 };
