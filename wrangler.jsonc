@@ -1,0 +1,12 @@
+{
+  // Configuración del Worker "portafolio" en Cloudflare.
+  // Publica los archivos estáticos de esta carpeta en cada push a main.
+  "name": "portafolio",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./"
+  },
+  "routes": [
+    { "pattern": "portafolio.oscarysol.com", "custom_domain": true }
+  ]
+}

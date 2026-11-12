@@ -1,0 +1,9 @@
+# Archivos que NO se publican en Cloudflare
+.git
+.git/**
+.gitignore
+.assetsignore
+wrangler.jsonc
+README.md
+invitacion-boda/api
+invitacion-boda/README.md
